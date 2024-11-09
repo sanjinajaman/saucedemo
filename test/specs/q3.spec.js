@@ -11,14 +11,13 @@ let select_product=[] ;
 let  cart_item=[];
 
 let each_item_total_price;
-//const itemsToAdd = ['#add-to-cart-sauce-labs-backpack', '#add-to-cart-sauce-labs-bike-light', '#add-to-cart-sauce-labs-bolt-t-shirt'];
+
 
 describe("Swag logs", ()=>{
 
 
     it("Try login with standard_user and verify the error message", async()=>{
         await q3Action.clickOnUserInputField(username);
-        //await q1Action.clickOnUserInputField();
         await q3Action.clickOnPasswordInputField(password);
         await q3Action.clickOnLoginButton();
         await q3Action.clickOnhamburgerButton();
@@ -31,7 +30,6 @@ describe("Swag logs", ()=>{
         
         await q3Action.clickOnFilter();
         await q3Action.clickOnOption();
-        //await q2Action.productOnList();
         await q3Action.addToCart();
         select_product=await q3Action.productNames();
         await q3Action.clickOnShoppingCart();
@@ -56,7 +54,7 @@ describe("Swag logs", ()=>{
 
 
     it("Verify Product Name", async()=>{
-        //const slect_product=await q2Action.productNames();
+        
         cart_item=await q3Action.CartItem_productName();
         expect(select_product).toEqual(cart_item);
         
@@ -115,7 +113,6 @@ describe("Swag logs", ()=>{
         await q3Action.clickOnhamburgerButton();
         await q3Action.clickOnresetAppState();
         await q3Action.clickOnLogOutButton()
-       // await browser.quit();
 
     })
 

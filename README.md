@@ -173,7 +173,38 @@ step 7:Got allure report run =>npm run getReport
 How to clone this project
 
 
-create a folder in your local machine=>mkdir projectname
-Go to project folder=> cd projectname
-clone repository=>git clone repository_url
+clone repository=>git clone https://github.com/sanjinajaman/saucedemo.git
+
+Run this command in terminal
+npm i --save-dev @wdio/cli
+
+
+
+note: replace install wdio.conf.js file by given wdio.conf.js
+
+
+Run code: npm run test
+
+
+
+question 1 
+video link: https://share.zight.com/JruZRKWk
+screenshot 1:https://share.zight.com/eDuZONR0
+screenshot 2:https://share.zight.com/bLuv94dz
+
+
+question 2
+video link:https://share.zight.com/12ujYXAl
+
+screenshot 1:
+screenshot 2:
+
+
+
+question 3
+
+video link:https://share.zight.com/Z4u9RWKD
+
+screenshot 1:
+screenshot 2:
 

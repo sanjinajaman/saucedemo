@@ -24,9 +24,9 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-       // q1,
-        //q2,
-          q3
+        //q1,
+        q2,
+          //q3
         //'./test/specs/**/*.js'
     ],
 
